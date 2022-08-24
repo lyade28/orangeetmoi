@@ -33,9 +33,10 @@ class _TabsState extends State<Tabs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('home'),
-      ),
-    );
+        body: Center(
+          child: Text('home'),
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+            items: [BottomNavigationBarItem(icon: Icon(Icons.abc))]));
   }
 }
